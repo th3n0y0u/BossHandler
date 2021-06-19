@@ -1,0 +1,4 @@
+while wait() do
+	script.Parent.Size = UDim2.new(0 , tonumber(game.Workspace.NPC.Humanoid.Health) / 50, 0, 86)
+	script.Parent.Parent.TextLabel.Text = tostring(game.Workspace.NPC.Humanoid.Health).."/50000"
+end 
